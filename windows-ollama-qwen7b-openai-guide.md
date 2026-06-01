@@ -267,7 +267,7 @@ ollama run qwen3:7b
 - `model`：模型名（如 `qwen3:7b`）
 - `messages`：对话数组（`role` + `content`）
 - `temperature`：采样温度（可选）
-- `Authorization`：可使用占位值（例如任意非空字符串）。
+- `Authorization`：本地 Ollama 接口通常可省略；若你的 SDK/网关要求该字段，可传任意非空占位值。
 
 ### 7.3 curl 命令测试
 
@@ -282,7 +282,6 @@ curl http://localhost:11434/v1/models
 ```powershell
 curl http://localhost:11434/v1/chat/completions ^
   -H "Content-Type: application/json" ^
-  -H "Authorization: ******" ^
   -d "{\"model\":\"qwen3:7b\",\"messages\":[{\"role\":\"user\",\"content\":\"请简要介绍 RTX 4070 Ti 运行 7B 模型的优势\"}]}"
 ```
 
