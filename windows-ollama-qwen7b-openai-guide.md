@@ -425,3 +425,29 @@ curl http://localhost:11434/v1/models
 19. `19-api-models.png`
 20. `20-api-chat.png`
 21. `21-python-result.png`
+
+### 截图插入模板（可直接替换为你的实际截图）
+
+```markdown
+![01 nvidia-smi 输出](images/01-nvidia-smi.png)
+![02 systeminfo 输出](images/02-systeminfo.png)
+![03 GPU 型号检查](images/03-gpu-model.png)
+![04 驱动筛选页面](images/04-driver-select.png)
+![05 驱动下载页面](images/05-driver-download.png)
+![06 驱动安装向导](images/06-driver-installer.png)
+![07 驱动安装完成](images/07-driver-finish.png)
+![08 驱动验证输出](images/08-driver-verified.png)
+![09 Ollama 下载页](images/09-ollama-download-page.png)
+![10 Ollama 安装器](images/10-ollama-installer.png)
+![11 Ollama 托盘图标](images/11-ollama-tray.png)
+![12 Ollama 版本验证](images/12-ollama-version.png)
+![13 模型拉取进度](images/13-pull-progress.png)
+![14 模型拉取完成](images/14-pull-finished.png)
+![15 本地模型列表](images/15-ollama-list.png)
+![16 端口监听验证](images/16-port-listening.png)
+![17 GPU 调用监控](images/17-gpu-usage.png)
+![18 本地对话测试](images/18-local-chat-test.png)
+![19 OpenAI 兼容 models 返回](images/19-api-models.png)
+![20 OpenAI 兼容 chat 返回](images/20-api-chat.png)
+![21 Python 调用结果](images/21-python-result.png)
+```
